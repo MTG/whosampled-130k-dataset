@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local scratch
+tmp/
+logs/
+
+# Editor / tooling
+.vscode/
+.claude/
+CLAUDE.md
+.DS_Store
+
+# Generated split artifacts. They live outside the repo and are far too large
+# for git -- train.json alone is ~44 MB. Do NOT commit them; split-schema.md
+# documents the format instead.
+splits-*/
+*.split.*
+
+# Generated audio / figures. Note this does NOT ignore data/, which holds the
+# small curated files the notebooks depend on.
+*.wav
+*.npy

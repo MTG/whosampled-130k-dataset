@@ -1,0 +1,20 @@
+# Analysis + partition environment.
+#
+#   conda env create -f environment.yml
+#   conda activate whosampled-130k
+#
+# Deliberately slim: the notebooks in this repo do graph analysis and dataset
+# splitting only. No torch, no lightning, no GPU.
+name: whosampled-130k
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - ipython
+  - pandas
+  - numpy
+  - matplotlib
+  - networkx
+  - scikit-learn
+  - scipy

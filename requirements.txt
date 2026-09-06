@@ -1,0 +1,9 @@
+# pip alternative to environment.yml (python >= 3.10)
+jupyterlab
+ipython
+pandas
+numpy
+matplotlib
+networkx
+scikit-learn
+scipy
