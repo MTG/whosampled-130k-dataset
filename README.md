@@ -1,5 +1,7 @@
 # WhoSampled-130k
 
+[![arXiv](https://img.shields.io/badge/arXiv-2609.15465-b31b1b.svg)](https://arxiv.org/abs/2609.15465)
+
 Dataset construction for automatic music sample identification: sampling-graph
 analysis and the train/val/test partition behind **91,967 annotated sample
 relations over 131,539 tracks**, mined from [WhoSampled](https://www.whosampled.com).
@@ -11,10 +13,12 @@ which consumes the split artifacts described in [split-schema.md](split-schema.m
 
 ## Data availability
 
-> **TODO:** link the Zenodo page here once it is live.
+The dataset is on Zenodo:
+**[10.5281/zenodo.22679688](https://doi.org/10.5281/zenodo.22679688)**.
 
-We share the dataset for non-commercial scientific research purposes only, upon
-request, through a Zenodo page. Only the final splits are distributed there:
+We share it for non-commercial scientific research purposes only, upon request:
+the record itself is public, but its files are under restricted access, so you
+have to request them there. Only the final splits are distributed:
 `train.json`, `val.json` and `test.json`, whose format is
 documented in [split-schema.md](split-schema.md). The `audio-paths-*.txt` files
 are not released -- they hold absolute paths from our cluster. No audio is
@@ -153,10 +157,14 @@ source of the data.
 
 ```bibtex
 @misc{araz2026building,
-  author       = {Araz, R. Oguz and Lizarraga, Xavier and Serra, Xavier and Bogdanov, Dmitry},
-  title        = {Building a Dataset for Music Sample Identification},
-  howpublished = {Extended Abstracts for the Late-Breaking Demo Session of the 27th Int. Society for Music Information Retrieval Conf.},
-  year         = {2026}
+  author        = {Araz, R. Oguz and Lizarraga, Xavier and Serra, Xavier and Bogdanov, Dmitry},
+  title         = {Building a Dataset for Music Sample Identification},
+  howpublished  = {Extended Abstracts for the Late-Breaking Demo Session of the 27th Int. Society for Music Information Retrieval Conf.},
+  year          = {2026},
+  eprint        = {2609.15465},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.SD},
+  url           = {https://arxiv.org/abs/2609.15465}
 }
 ```
 
