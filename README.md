@@ -6,10 +6,7 @@ Dataset construction for automatic music sample identification: sampling-graph
 analysis and the train/val/test partition behind **91,967 annotated sample
 relations over 131,539 tracks**, mined from [WhoSampled](https://www.whosampled.com).
 
-This repository covers the **data** side only -- how the graph is built, cleaned,
-analysed, and split. Model code, training, and evaluation live in
-[raraz15/sample-identification](https://github.com/raraz15/sample-identification),
-which consumes the split artifacts described in [split-schema.md](split-schema.md).
+This repository covers the **data** side only -- how the graph is built, cleaned, analysed, and split.
 
 ## Data availability
 
